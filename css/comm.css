@@ -1,0 +1,111 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+canvas,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ol,
+ul,
+li {
+    list-style: none
+}
+
+caption,
+th {
+    text-align: left
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+q:before,
+q:after {
+    content: ''
+}
+
+abbr,
+acronym {
+    border: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+i,
+b {
+    font-style: normal;
+    font-weight: normal
+}
+
+input {
+    outline-style: none;
+    vertical-align: middle;
+    font-family: 'Alibaba-PuHuiTi-Regular';
+}
+
+@font-face {
+    font-family: 'Alibaba-PuHuiTi-Regular';
+    /* 字体名称 */
+    src: url('Alibaba-PuHuiTi-Regular.otf');
+    /* 字体源文件 */
+}
+
+body {
+    font-family: 'Alibaba-PuHuiTi-Regular';
+}
+
+html {
+    -webkit-tap-height-color: rgba(0, 0, 0, 0);
+}
